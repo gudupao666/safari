@@ -218,7 +218,7 @@
                     document.getElementById('selected-files').innerText.replace("。，", "");
         
                     var xhr = new XMLHttpRequest();
-                    xhr.open('POST', 'http://38.46.30.122:8000/api/v1/analyze', true);
+                    xhr.open('POST', 'https://sfaapi.gudupao.top/api/v1/analyze', true);
 
                     document.getElementById('status').innerText = "上传中...";
                     xhr.upload.onprogress = function (e) {
